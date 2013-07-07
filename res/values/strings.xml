@@ -6,7 +6,8 @@
     <string name="hello_world">Hello world!</string>
     <string name="button1">Button1</string>
     <string name="button1_was_clicked">Button1 was clicked</string>
-    <string name="button2">Button2</string>
-    <string name="button3">Button3</string>
+    <string name="gradient_pink">Gradient Pink</string>
+    <string name="gradient_pink_with_style">Gradient Pink with Style</string>
+    <string name="flat_pink">Flat Pink</string>
     
 </resources>
