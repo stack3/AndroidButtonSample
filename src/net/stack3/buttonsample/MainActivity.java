@@ -11,17 +11,19 @@ public class MainActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.main_activity);
         
-        Button button = (Button)findViewById(R.id.button1);
-        button.setOnClickListener(buttonOnClickListener);
+        Button button1 = (Button)findViewById(R.id.button1);
+        button1.setOnClickListener(button1OnClickListener);
     }
 
-    private OnClickListener buttonOnClickListener = new OnClickListener() {
+    private OnClickListener button1OnClickListener = new OnClickListener() {
         @Override
         public void onClick(View v) {
-            Button button = (Button)v;
-            button.setText(R.string.title_button_was_clicked);
+            Button button1 = (Button)v;
+            button1.setText(R.string.button1_was_clicked);
         }
     };
+    
+    
 }
