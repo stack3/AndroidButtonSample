@@ -4,8 +4,8 @@
     <string name="app_name">ButtonSample</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
-    <string name="button1">Button1</string>
-    <string name="button1_was_clicked">Button1 was clicked</string>
+    <string name="normal_button">Normal Button</string>
+    <string name="clicked">Clicked</string>
     <string name="gradient_pink">Gradient Pink</string>
     <string name="gradient_pink_with_style">Gradient Pink with Style</string>
     <string name="flat_pink">Flat Pink</string>

@@ -7,10 +7,10 @@
     tools:context=".MainActivity" >
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/normal_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/button1" />
+        android:text="@string/normal_button" />
 
     <Button
         android:id="@+id/button2"
