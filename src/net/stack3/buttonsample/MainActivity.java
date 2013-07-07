@@ -13,15 +13,15 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main_activity);
         
-        Button button1 = (Button)findViewById(R.id.normal_button);
-        button1.setOnClickListener(normalButtonOnClickListener);
+        Button normalButton = (Button)findViewById(R.id.normal_button);
+        normalButton.setOnClickListener(normalButtonOnClickListener);
     }
 
     private OnClickListener normalButtonOnClickListener = new OnClickListener() {
         @Override
         public void onClick(View v) {
-            Button button1 = (Button)v;
-            button1.setText(R.string.clicked);
+            Button normalButton = (Button)v;
+            normalButton.setText(R.string.clicked);
         }
     };
     
