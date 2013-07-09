@@ -37,5 +37,38 @@
         android:layout_marginTop="@dimen/widget_margin"
         android:text="@string/flat_pink"
         style="@style/button_flat_pink" />
+
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/widget_margin"
+	    android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launcher"
+            android:background="@drawable/button_gradient_pink"
+            android:contentDescription="@string/desc"
+            android:layout_gravity="center_vertical"  />
+	    	    
+        <Button
+            android:id="@+id/buttonAndText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/widget_margin"
+            android:drawableLeft="@drawable/ic_launcher"
+            android:background="@drawable/button_gradient_pink"
+            android:layout_gravity="center_vertical"  />
     
+        <Button
+            android:id="@+id/buttonAndText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/widget_margin"
+            android:drawableTop="@drawable/ic_launcher"
+            android:text="@string/text"
+            android:background="@drawable/button_gradient_pink" />
+    </LinearLayout>
 </LinearLayout>
