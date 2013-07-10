@@ -59,6 +59,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/widget_margin"
             android:drawableLeft="@drawable/ic_launcher"
+            android:text="@string/text"
             android:background="@drawable/button_gradient_pink"
             android:layout_gravity="center_vertical"  />
     
